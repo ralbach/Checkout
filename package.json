@@ -1,0 +1,26 @@
+{
+  "name": "checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/index.js",
+    "build": "babel client --watch --out-dir public --presets=env,react --source-maps inline"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
